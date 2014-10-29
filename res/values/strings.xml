@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PolyJuice</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="startbtntxt">Begin!</string>
+    <string name="stopbtntxt">End</string>
+    <string name="change_targets">Change Targets</string>
+    <string name="app_1_hint">Application 1</string>
+    <string name="app_2_hint">Application 2</string>
+    <string name="change">Change</string>
+    <string name="title_activity_chathead">Chathead</string>
+    <string name="chathead">Chathead</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_app">App</string>
+    <string name="title_activity_app_list_adaptor">AppListAdaptor</string>
+    <string name="title_activity_list_installed_adapter">ListInstalledAdapter</string>
+    <string name="title_activity_list_installed_apps">ListInstalledApps</string>
+    <string name="changebtn">Change</string>
+</resources>

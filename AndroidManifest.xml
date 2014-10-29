@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.switcher"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.switcher.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.switcher.Chathead"
+            android:label="@string/title_activity_chathead" >
+        </activity>
+
+        <service android:name="com.example.switcher.ChatheadService" >
+        </service>
+
+        <activity
+            android:name="com.example.applist.App"
+            android:label="@string/title_activity_app" >
+        </activity>
+        <activity
+            android:name="com.example.applist.AppListAdaptor"
+            android:label="@string/title_activity_app_list_adaptor" >
+        </activity>
+        <activity
+            android:name="com.example.switcher.ListInstalledAdapter"
+            android:label="@string/title_activity_list_installed_adapter" >
+        </activity>
+        <activity
+            android:name="com.example.applist.ListInstalledApps"
+            android:label="@string/title_activity_list_installed_apps" >
+        </activity>
+    </application>
+
+</manifest>
