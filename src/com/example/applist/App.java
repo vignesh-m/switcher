@@ -2,8 +2,7 @@
 
 import android.graphics.drawable.Drawable;
 	public class App {
-
-	   private String title;
+	   private String title;//title
 	   private String packageName;
 	   private String versionName;
 	   private int versionCode;
