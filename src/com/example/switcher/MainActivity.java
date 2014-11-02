@@ -23,6 +23,7 @@ public class MainActivity extends Activity {
         APP2packagename="com.sri.login";
         if(intent.getStringExtra("APP1name")!=null) APP1packagename=intent.getStringExtra("APP1name");
         if(intent.getStringExtra("APP2name")!=null) APP2packagename=intent.getStringExtra("APP2name");
+        createhead();
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
